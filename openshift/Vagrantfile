@@ -1,0 +1,4 @@
+Vagrant.configure("2") do |config|
+  config.vm.box = "openshift/origin-all-in-one"
+  config.vm.box_version = "1.3.0"
+end
